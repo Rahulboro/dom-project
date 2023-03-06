@@ -1,12 +1,5 @@
 document.body.style.background = "grey";
-
-let  faq = document.createElement("h2");
- faq.className = "faq";
- faq.textContent = "Who are we?";
-
- document.querySelector(".faq").addEventListener("click", answer);
- function answer(){    
- }
+let faq = document.createElement("h2")
 
 // document.addEventListener(onclick, divone_ans );
 // function onclick () {
