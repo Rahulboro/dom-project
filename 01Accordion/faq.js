@@ -1,13 +1,12 @@
-document.body.style.background = "grey";
-let faq = document.createElement("h2")
 
-// document.addEventListener(onclick, divone_ans );
-// function onclick () {
-//     divone_ans = document.createElement("p")
-//     document.querySelector("p").innerText =  "We enable upscaling careers through flexible, interactive and collaborative learning. We believe in building learning communities by bringing together mentors, young minds, and creators."
-// }
-// document.body.append(faq)
-
+let div = document.createElement('div')
+let hTwo = document.createElement('h3')
+let p = document.createElement('p')
+//one faq
+div.setAttribute('class', 'faq')
+hTwo.append("Who Are We ?")
+div.appendChild(hTwo)
+document.body.append(div)
 
 
 
