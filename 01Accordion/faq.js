@@ -79,18 +79,6 @@ divThreeInnerP.textContent = faqlist[2].answer
 
 
 
-let isOpen = true
-  SHOW_BTN.addEventListener("click", () => {
-      if(isOpen){
-        FAQ_BODY.style.display = "block"
-        isOpen = false        
-      } else {
-        FAQ_BODY.style.display = "none"
-        isOpen = true
-      }
-  })
-
-
 
 
 // function showFaq() {
