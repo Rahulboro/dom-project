@@ -22,7 +22,6 @@ const accordianBody = document.body.querySelector(".accordian_body")
 const faqs = [];
 
 // let [divOne, divTwo, divThree]= faqlist
-
 // one 
 
 // faqlist.forEach((createlist)=> {
