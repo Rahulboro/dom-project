@@ -10,6 +10,6 @@ function generateRandomColor() {
   
   const randomColor = generateRandomColor();
 
-button.addEventListener('click', ()=>{
-    colorchanger = randomColor;
-});
+  button.addEventListener("click",()=>{
+    document.getElementById("canvas").style.background = generateRandomColor();
+    });
