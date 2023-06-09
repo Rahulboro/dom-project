@@ -21,13 +21,27 @@ const faqlist =[
 const accordianBody = document.body.querySelector(".accordian_body")
 const faqs = [];
 
+function showFaq() {
+}
+
+function createFaq() {
+  let div = document.createElement('div')
+  div.setAttribute('class', 'faq');
+  document.accordianBody.appendChild(div); 
+}
+
+function btnStatusUpdate() {
+  addEventListener('click', 'btnStatusUpdate')
+   {
+  }  
+}
 // let [divOne, divTwo, divThree]= faqlist
 // one 
 
 // faqlist.forEach((createlist)=> {
-//   createlist = document.createElement('div')  
-//   createlist.setAttribute('class', 'faq')
-// });
+  //   createlist = document.createElement('div')  
+  //   createlist.setAttribute('class', 'faq')
+  // });
 
 
 //   accordianBody.appendChild(faqlist);
@@ -41,57 +55,46 @@ const faqs = [];
 // }
 
 
+
 // div one 
 
-let divOne = document.createElement('div')
-divOne.setAttribute('class', 'faq');
-accordianBody.appendChild(divOne);
-let divOneInnerh3 = document.createElement('h3')
-divOne.appendChild(divOneInnerh3);
-divOneInnerh3.textContent = faqlist[0].question
-let divOneInnerP = document.createElement('p')
-divOne.appendChild(divOneInnerP)
-divOneInnerP.textContent = faqlist[0].answer
+// let divOne = document.createElement('div')
+// divOne.setAttribute('class', 'faq');
+// accordianBody.appendChild(divOne);
+// let divOneInnerh3 = document.createElement('h3')
+// divOne.appendChild(divOneInnerh3);
+// divOneInnerh3.textContent = faqlist[0].question
+// let divOneInnerP = document.createElement('p')
+// divOne.appendChild(divOneInnerP)
+// divOneInnerP.textContent = faqlist[0].answer
 
 // divtwo 
 
-let divTwo = document.createElement('div')
-divTwo.setAttribute('class', 'faq');
-accordianBody.appendChild(divTwo);
-let divTwoInnerh3 = document.createElement('h3')
-divTwo.appendChild(divTwoInnerh3);
-divTwoInnerh3.textContent = faqlist[1].question
-let divTwoInnerP = document.createElement('p')
-divTwo.appendChild(divTwoInnerP)
-divTwoInnerP.textContent = faqlist[1].answer
+// let divTwo = document.createElement('div')
+// divTwo.setAttribute('class', 'faq');
+// accordianBody.appendChild(divTwo);
+// let divTwoInnerh3 = document.createElement('h3')
+// divTwo.appendChild(divTwoInnerh3);
+// divTwoInnerh3.textContent = faqlist[1].question
+// let divTwoInnerP = document.createElement('p')
+// divTwo.appendChild(divTwoInnerP)
+// divTwoInnerP.textContent = faqlist[1].answer
 
 // divthree 
 
-let divThree = document.createElement('div')
-divThree.setAttribute('class', 'faq');
-accordianBody.appendChild(divThree);
-let divThreeInnerh3 = document.createElement('h3')
-divThree.appendChild(divThreeInnerh3);
-divThreeInnerh3.textContent = faqlist[2].question
-let divThreeInnerP = document.createElement('p')
-divThree.appendChild(divThreeInnerP)
-divThreeInnerP.textContent = faqlist[2].answer
+// let divThree = document.createElement('div')
+// divThree.setAttribute('class', 'faq');
+// accordianBody.appendChild(divThree);
+// let divThreeInnerh3 = document.createElement('h3')
+// divThree.appendChild(divThreeInnerh3);
+// divThreeInnerh3.textContent = faqlist[2].question
+// let divThreeInnerP = document.createElement('p')
+// divThree.appendChild(divThreeInnerP)
+// divThreeInnerP.textContent = faqlist[2].answer
 
 
 
 
-
-// function showFaq() {
-  
-// }
-
-// function createFaq() {
-  
-// }
-
-// function btnStatusUpdate() {
-  
-// }
 
 
 

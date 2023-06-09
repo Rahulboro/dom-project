@@ -9,8 +9,9 @@
 // let kebabCase = document.querySelector('kebab-case')
 // let screamingKebabCase = document.querySelector('screaming-kebab-case')
 
+
 // adding event listener 
-document.addEventListener('input', input)
+document.addEventListener('input', input )
 function input() {
     let gettext = document.getElementById('text').value;
     document.getElementById('camel-case').innerText = gettext.toUpperCase();
