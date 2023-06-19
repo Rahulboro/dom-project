@@ -11,6 +11,8 @@
 
 
 // adding event listener 
+
+// camel case 
 document.addEventListener('input', input )
 function input() {
     let gettext = document.getElementById('text').value;
@@ -18,7 +20,18 @@ function input() {
     btn.addEventListener('click', ()=>{
         document.getElementById('camel-case').innerText = gettext.
     toUpperCase();
+    document.getElementById('pascal-case').innerText = gettext.
+    toUpperCase();
+    document.getElementById('snake-case').innerText = gettext.
+    toUpperCase();
+    document.getElementById('screaming-snake-case').innerText = gettext.
+    toUpperCase();
+    document.getElementById('kebab-case').innerText = gettext.
+    toUpperCase();
+    document.getElementById('screaming-kebab-case').innerText = gettext.
+    toUpperCase();
     }
     )
-   a
 }
+
+
