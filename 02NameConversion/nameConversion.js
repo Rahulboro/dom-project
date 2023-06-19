@@ -14,5 +14,11 @@
 document.addEventListener('input', input )
 function input() {
     let gettext = document.getElementById('text').value;
-    document.getElementById('camel-case').innerText = gettext.toUpperCase();
+    let btn = document.getElementById('convert-btn')
+    btn.addEventListener('click', ()=>{
+        document.getElementById('camel-case').innerText = gettext.
+    toUpperCase();
+    }
+    )
+   a
 }
