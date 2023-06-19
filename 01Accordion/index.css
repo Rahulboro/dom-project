@@ -1,7 +1,8 @@
-
+*{
+  background-color: #444343;
+}
 .accordian_body {
   max-width: 600px;
-  background-color: #c62020;
   margin: 0em auto;
   display: flex;
   flex-direction: column;
