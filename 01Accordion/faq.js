@@ -22,12 +22,16 @@ const faqs = [];
 const accordianBody = document.querySelector('.accordian_body');
 
 // created div faq element 
-const faq_el = document.createElement('div');
-faq_el.classList.add("faq");
-accordianBody.appendChild(faq_el)
+const faq_div = document.createElement('div');
+faq_div.classList.add("faq");
+accordianBody.appendChild(faq_div)
 
+div_one = faqlist.filter(obj => {
+  return obj.id === 1
+})
+console.log(div_one)
 // function of showing faq
-function showFaq(e) {
+function showFaq(e) { 
   
 }
 function createFaq() {
