@@ -1,0 +1,1 @@
+const jokeid = document.querySelector('#joke')
