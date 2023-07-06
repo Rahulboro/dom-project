@@ -11,6 +11,7 @@ let screamingKebabCase = document.querySelector('screaming-kebab-case')
 
 
 // adding event listener 
+const eventListener = addEventListener(input, textArea)
 
 // camel case 
 document.addEventListener('input', input )
