@@ -11,21 +11,19 @@ let screamingKebabCase = document.querySelector('screaming-kebab-case')
 
 
 // adding event listener 
-const eventListener = addEventListener(input, textArea)
-
+// const eventListener = document.addEventListener("input", function (params) {
+    
+// })
 // camel case 
 document.addEventListener('input', input )
 function input() {
-    let gettext = document.getElementById('text').value;
-    let btn = document.getElementById('convert-btn')
-    btn.addEventListener('click', ()=>{
+    let inputText = document.getElementById('textArea').value;
+    convertBtn.addEventListener('click', ()=>{
         // this is the camel case document
-        function camel_Case(gettext) {
-            let text_el = gettext.toLowerCase();
-            return text_el.split(" ").reduce((s, c) => s
-        + (c.charAt(0).toUpperCase() + c.slice(1)));
+        function camel_Case(inputText) {
+            let text_el = inputText.toLowerCase();
         }
-        camel_Case()
+
     
     // document.getElementById('pascal-case').innerText = gettext.
     // toUpperCase();
