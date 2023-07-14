@@ -6,11 +6,13 @@ const options = {
 		'X-RapidAPI-Host': 'dad-jokes.p.rapidapi.com'
 	}
 };
+async function getJokes(url) {
+	try {
+		const response = await fetch(url, options);
+		const result = await response.text();
 
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
+		console.log(result);
+	} catch (error) {d
+		console.error(error);
+	}
 }
