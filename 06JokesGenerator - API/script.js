@@ -10,9 +10,23 @@ async function getJokes(url) {
 	try {
 		const response = await fetch(url, options);
 		const result = await response.text();
-
-		console.log(result);
+		return result.joke
+		
 	} catch (error) {d
 		console.error(error);
 	}
 }
+
+//function to display joke 
+
+function displayJoke(joke) {
+	const jokeEl = document.getElementById('joke')
+	jokeEl.textContent = joke;
+}
+// here event listener for button click 
+
+const generateBtn = document.getElementById('jokeBtn');
+generateBtn.addEventListener ('click', async ( )=>{
+	const joke = await getJokes()
+	displayJoke(joke)
+})
