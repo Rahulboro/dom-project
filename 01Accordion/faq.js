@@ -26,15 +26,17 @@ const faq_div = document.createElement('div');
 faq_div.classList.add("faq");
 accordianBody.appendChild(faq_div)
 
-div_one = faqlist.filter(obj => {
-  return obj.id === 1
-})
-console.log(div_one)
 // function of showing faq
 function showFaq(e) { 
   
 }
 function createFaq() {
+  for (const divfaq of faqlist) {
+    divfaq = faqlist.filter(obj => {
+      return obj.id === 1
+    })
+    console.log(divfaq)
+  }
   
 }
 
