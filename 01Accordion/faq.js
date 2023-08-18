@@ -18,25 +18,18 @@ const faqlist =[
   },
 ];
 
+const accordianBody;
 const faqs = [];
-const accordianBody = document.querySelector('.accordian_body');
+createFaq()
 
-// created div faq element 
-const faq_div = document.createElement('div');
-faq_div.classList.add("faq");
-accordianBody.appendChild(faq_div)
-
-// function of showing faq
-function showFaq(e) { 
-  
+function showFaq() {
 }
+
 function createFaq() {
-  for (const divfaq of faqlist) {
-    divfaq = faqlist.filter(obj => {
-      return obj.id === 1
-    })
-    console.log(divfaq)
-  }
+  const newfaq = document.querySelector(".accordian_body");
+  const createFaq = document.createElement("div")
+  createFaq.classList = ("faq")
+  newfaq.appendChild(createFaq)
   
 }
 
