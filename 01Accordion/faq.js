@@ -18,11 +18,11 @@ const faqlist =[
   },
 ];
 
-const accordianBody;
+// const accordianBody;
 const faqs = [];
-createFaq()
 
 function showFaq() {
+  let testFaq = document.getElementsByClassName("accordian_body")
 }
 
 function createFaq() {
@@ -36,3 +36,5 @@ function createFaq() {
 function btnStatusUpdate() {
   
 }
+createFaq()
+showFaq()
