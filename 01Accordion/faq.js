@@ -18,18 +18,23 @@ const faqlist =[
   },
 ];
 
-// const accordianBody;
+const accordianBody = document.querySelector(".accordian_body")
 const faqs = [];
 
 function showFaq() {
-  let testFaq = document.getElementsByClassName("accordian_body")
+  faqlist.forEach(element => {
+    
+  });
+  // for(i =0; i<faqlist.length; i++ ){
+  //   return faqlist([])
+  // }
 }
-
+        
 function createFaq() {
-  const newfaq = document.querySelector(".accordian_body");
+  // const newfaq = document.querySelector(".accordian_body");
   const createFaq = document.createElement("div")
   createFaq.classList = ("faq")
-  newfaq.appendChild(createFaq)
+  newfaq.appendChild(accordianBody)
   
 }
 
@@ -37,4 +42,4 @@ function btnStatusUpdate() {
   
 }
 createFaq()
-showFaq()
+
